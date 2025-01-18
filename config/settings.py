@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-f_nr*5-g@c7@ekp@=rs=f@0#vyv$&*!@ipqrp=(=1%@4o@1zo5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['reachifybackend.azurewebsites.net']
+ALLOWED_HOSTS = ['reachifybackend.azurewebsites.net', 'localhost']
 
 
 # Application definition
